@@ -9,16 +9,16 @@ const mobileAndTabletCheck = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IE
 $(document).ready(() => {
   const links = [
     {
-      name: 'discord profile',
-      link: 'discord.com/users/750330908518645811',
+      name: 'my discord',
+      link: 'discord.com/users/745631824163766412',
     },
     {
-      name: 'roblox',
-      link: 'roblox.com/users/1360626968/profile',
+      name: 'cashapp',
+      link: 'cash.app/%C2%A3zurlyyy',
     },
     {
-      name: 'lay.rip',
-      link: 'lay.rip',
+      name: 'feds.lol',
+      link: 'feds.lol/ceo',
     }
   ];
 
@@ -38,7 +38,7 @@ $(document).ready(() => {
     app.shouldIgnoreVideo = true;
   }
 
-  app.titleChanger(['x', 'xe', 'xer', 'xerm', 'xerm $', 'xerm $$', 'xerm $$$']);
+  app.titleChanger(['z', 'zu', 'zur', 'zurl', 'zurly', 'zurly $']);
   app.iconChanger(['assets/icons/rose1.jpg', 'assets/icons/rose2.jpg', 'assets/icons/rose3.jpg', 'assets/icons/rose4.jpg', 'assets/icons/rose5.jpg', 'assets/icons/rose6.jpg', 'assets/icons/rose7.jpg', 'assets/icons/rose7.jpg', 'assets/icons/rose1.jpg']);
 });
 
@@ -116,7 +116,7 @@ $.getJSON(ipgeolocation, (data) => {
 
       clearCursor();
 
-      writeLine([`<i style='color: #F62459'>michx! $$$</i>`], 120, 500, () => {
+      writeLine([`<i style='color: #F62459'>thx for the ip <3 - zurly $</i>`], 120, 500, () => {
         timeouts.push(
           setTimeout(() => {
             if (app.skippedIntro) return;
