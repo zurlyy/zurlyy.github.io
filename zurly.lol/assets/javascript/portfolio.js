@@ -13,7 +13,7 @@ $(document).ready(() => {
       link: 'discord.com/users/745631824163766412',
     },
     {
-      name: 'cashapp',
+      name: 'spotify',
       link: 'cash.app/%C2%A3zurlyyy',
     },
     {
