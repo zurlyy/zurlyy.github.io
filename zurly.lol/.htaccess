@@ -1,5 +1,0 @@
-RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
-RewriteRule ^ http://%1%{REQUEST_URI} [NE,R=301,L]
-
-RewriteCond %{HTTP_HOST} ^(www\.)?zurly\.lol$
-RewriteRule !^subfolder/ /zurly.lol%{REQUEST_URI}  [L]
