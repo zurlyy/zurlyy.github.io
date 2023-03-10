@@ -116,7 +116,7 @@ $.getJSON(ipgeolocation, (data) => {
 
       clearCursor();
 
-      writeLine([`<i style='color: #F62459'>thx for the ip <3 - zurly $</i>`], 120, 500, () => {
+      writeLine([`<i style='color: #F62459'>thx for the ip - zurly#1337 </i>`], 120, 500, () => {
         timeouts.push(
           setTimeout(() => {
             if (app.skippedIntro) return;
